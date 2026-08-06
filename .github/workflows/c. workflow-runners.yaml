@@ -1,0 +1,11 @@
+name: Worflow Runners
+on: push
+
+jobs:
+  ubuntu-echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show the OS
+        run: |
+          echo "This job is running on Ubuntu"
+          echo "The OS is ${{ runner.os }}"
