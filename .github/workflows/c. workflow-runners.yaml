@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Show the OS
         run: |
-          echo "This job is running on Ubuntu"
+          echo "This job runs on Ubuntu"
           echo "The OS is $RUNNER_OS"
   echo-windows:
     runs-on: windows-latest
@@ -18,5 +18,5 @@ jobs:
       - name: Show the OS
         shell: pwsh
         run: |
-          echo "This job is running on Windows"
+          echo "This job runs on Windows"
           echo "The OS is $RUNNER_OS"
