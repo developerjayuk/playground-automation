@@ -1,8 +1,8 @@
-name: Worflow Runners
+name: Workflow Runners
 on: push
 
 jobs:
-  ubuntu-echo:
+  echo-ubuntu:
     runs-on: ubuntu-latest
     steps:
       - name: Show the OS
