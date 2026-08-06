@@ -1,5 +1,6 @@
 name: Workflow Runners
-on: push
+on: 
+  push:
 
 jobs:
   echo-ubuntu:
